@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* Color de fondo */
+body > header,
+main > section { background: lightgrey; }
+
+body > nav,
+article,
+body > footer { background: lightsteelblue; }
+
+main > aside { background: lightgreen; }
+
+/* Color de los encabezados */
+section h2,
+section h3,
+section h4,
+section h5,
+section h6 { color: grey; }
+
+body > nav,
+body > footer,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 { color: blue; }
+
+aside h2,
+aside h3,
+aside h4,
+aside h5,
+aside h6 { color: green; }
+
+/* Margen, aire y bordes redondeados */
+body > header,
+body > nav,
+body > footer,
+main > section,
+main > aside,
+article {
+    margin: 1em;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+/* Eliminando ciertos estilos predeterminados  */
+body > nav h2,
+body > footer h2
+{ margin: 0; }
+
+/* Disposición flexible */
+main {
+    display: flex;
+    margin: 0 5%;
+    border: 1px solid green;
+}
+body > header figure {
+    display: inline-flex;
+    margin: 0 auto;
+}
+body > header h1 {
+    display: inline-flex;
+    vertical-align: top;
+    margin: 0 auto;
+    margin-top: 0.25em;
+}
+article {
+    padding: 1em;
+    margin-bottom: 1em;
+}
+table{
+    border-collapse:collapse;
+    caption-side: bottom;
+}
+caption{
+    font-weight:bold;
+    margin-top:16px;
+}
+th,td{padding:5px 10px;}
+td,th{border:1px solid #1c1c1c;text-align:center;}

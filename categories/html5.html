@@ -13,74 +13,104 @@
         <!-- Breve descripción del sitio que se verá en los resultados de búsqueda -->
         <meta name="description" content="Para permanecer visible en Google debo contener entre 140-160 caracteres" />
         <!-- Ruta a las hojas de estilos -->
-        <link rel="stylesheet" type="text/css" href="/assets/css/application.css" />
+        <link rel="stylesheet" type="text/css" href="../css/basicos.css" />
         <!-- Ruta al favicon -->
     	<link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/vnd.microsoft.icon" />
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXX-n"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-XXXX-n');
-        </script>
         <!-- Título de la pestaña -->
-        <title>Título de la página web</title>
+        <title>El lenguaje de marcas HTML5 | IFCD0110</title>
     </head>
 
     <!-- Cuerpo visible del documento web -->
     <body>
         <header>
-            <a href="https://miweb.com">
-                <figure class="logo" style="background-image:url(/assets/svg/logo.svg);"></figure>
-                <h1>Título de la página de inicio</h1>
+            <a href="../index.html" title="Inicio">
+                <figure>
+                    <img src="../images/logo_100.jpg" alt="Logo del proyecto web formado por los 3 logotipos de HTML5, CSS3 y Javascript" />
+                </figure>
+                <h1>El lenguaje de marcas HTML5</h1>
             </a>
-            <p class="pechado">Slogan del sitio web</p>
+            <p class="pechado">Curso de Confección y Publicación de Páginas Web</p>
         </header>
         <!-- Menú de navegación principal del sitio -->
         <nav>
             <h2 class="pechado">Menú principal</h2>
             <ul>
                 <li>
-                    <a href="index.html">Inicio</a>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>Categorias
+                    <ul>
+                        <li>
+                            <a href="html5.html">HTML5</a>
+                        </li>
+                        <li>
+                            <a href="css.html">CSS</a>
+                        </li>
+                        <li>
+                            <a href="js.html">Javascript</a>
+                        </li>
+                         <li>
+                            <a href="loremipsum.html">Lorem Ipsum</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="pages/servicios.html">Servicios</a>
+                    <a href="../pages/nosotros.html">Nosotros</a>
                 </li>
                 <li>
-                    <a href="pages/nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="pages/contacto.html">Nosotros</a>
+                    <a href="../pages/contacto.html">Contacto</a>
                 </li>
             </ul>
         </nav>
         <!-- Contenido principal de la página web -->
         <main>
             <section>
-                <h2>Título de la sección</h2>
+                <h2>HTML y HTML5</h2>
                 <article>
-                    <h3>Título del artículo</h3>
-                    <p>Párrafo 1</p>
-                    <p>Párrafo 2</p>
+                    <h3 id="html">HTML</h3>
+                    <p>
+                        <strong>
+                            El <a href="https://es.wikipedia.org/wiki/HTML">HTML</a> es un lenguaje de marcado
+                        </strong>
+                        que constituye uno de los pilares de la web. Fue inventado por <a href="https://es.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners Lee</a>
+                        en 1990 a partir de otro lenguaje denominado
+                        <a href="https://es.wikipedia.org/wiki/SGML">SGML</a>
+                        y que servía para dotar de estructura documental a una información.
+                    </p>
+                    <p>
+                        <strong>El lenguaje de marcado</strong> es, básicamente, un idioma que
+                        <strong>se caracteriza por envolver el contenido</strong> (texto, enlaces, audio/imagen/video ...)
+                        <strong>entre marcas o etiquetas</strong> jerárquicas y semánticas.
+                    </p>
                 </article>
                 <article>
-                    <h3>Título del artículo</h3>
-                    <p>Párrafo 1</p>
-                    <p>Párrafo 2</p>
+                    <h3 id="html5">HTML5</h3>
+                    <p>
+                        <strong>El lenguaje HTML confiere a los documentos web estructura jerárquica y semántica al contenido</strong> final.
+                    </p>
+                    <p>
+                        Etiquetar cada parte de un documento web aporta información enriquecida al usuario, a los motores de búsqueda y a los navegadores.
+                    </p>
+                    <p>
+                        <strong>HTML</strong> es el componente más básico de la Web. Define el significado y la estructura del contenido web. Además de HTML, generalmente se utilizan otras tecnologías para describir la apariencia/presentación de una página web (CSS) o la funcionalidad/comportamiento (JavaScript).
+                    </p>
+                    <p>
+                        El <strong>Lenguaje de Marcado de HiperTexto</strong>
+                        (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos.
+                    </p>
+                    <p>
+                        <em>"Hipertexto"</em> hace referencia a los enlaces que conectan páginas web entre sí, ya sea dentro de un único sitio web o entre sitios web. Los enlaces son un aspecto fundamental de la Web. Al subir contenido a Internet y vincularlo a las páginas creadas por otras personas, te conviertes en un participante activo en la «World Wide Web» (Red Informática Mundial).
+                    </p>
                 </article>
                 <!-- Pie de la sección -->
                 <footer></footer>
             </section>
             <aside>
-                <h2>Título de la barra lateral</h2>
+                <h2>Contenidos</h2>
                 <nav>
                     <ul>
-                        <li><a href="#">Ir al artículo 1</a></li>
-                        <li><a href="#">Ir al artículo 2</a></li>
-                        <li><a href="#">Ir al artículo 3</a></li>
-                        <li><a href="#">Ir al artículo 4</a></li>
+                        <li><a href="#html">Ir al artículo HTML</a></li>
+                        <li><a href="#html5">Ir al artículo HTML5</a></li>
                     </ul>
                 </nav>
             </aside>
