@@ -1,4 +1,5 @@
-# IFCD0110
-Tutorial del curso Confección y publicación de páginas web (IFCD0110)
+# UF1302
 
- Your site is published at https://webusable.github.io/IFCD0110/
+Repositorio con las primeras prácticas en marcado HTML5
+
+Ejercicios y perrerías en: https://webusable.github.io/UF1302
